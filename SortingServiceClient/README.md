@@ -1,23 +1,23 @@
 
-Para configurar o modo de ordenação do programa, alterar arquivo config.json.
-As configurações podem ser:
-1- "Ascending": ordena os livros em ordem alfabética ascendente
-2- "Descending": ordena os livros em ordem alfabética descendente
-3- Vazio: Desconsidera o atributo na ordenação
+Para configurar o modo de ordenacao do programa, alterar arquivo config.json.
+As configuracoes podem ser:
+1- "Ascending": ordena os livros em ordem alfabetica ascendente
+2- "Descending": ordena os livros em ordem alfabetica descendente
+3- Vazio: Desconsidera o atributo na ordenacao
 
 Para executar, deve ser aberto o arquivo SSC.py
 
-Existem três atributos que podem ser selecionados como modo de classificação
--Título (Title)
+Existem tres atributos que podem ser selecionados como modo de classificacao
+-Titulo (Title)
 -Autor	(Author)
--Edição	(Edition)
+-Edicao	(Edition)
 
-Caso mais de um seja selecionado simultaneamente, a ordem prioritária é a seguinte:
-1- Edição
+Caso mais de um seja selecionado simultaneamente, a ordem prioritária e a seguinte:
+1- Edicao
 2- Autor
-3- Título
+3- Titulo
 
-Sendo que, se se edição e título forem selecionados, a lista de livros será classificada por edição, e caso existam duas edições iguais, o critério para ordenação considerado será o título
+Por exemplo, se se edicao e titulo forem selecionados, a lista de livros sera classificada por edicao, e caso existam duas edicoes iguais, o criterio para ordenacao considerado sera o titulo
 
-No programa já estão registrados os quatro livros utilizados para teste, no entanto, o usuário pode adicionar mais livros livremente.
+No programa ja estao registrados os quatro livros utilizados para teste, no entanto, o usuario pode adicionar mais livros livremente.
 
